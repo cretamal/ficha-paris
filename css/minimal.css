@@ -1,0 +1,817 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.ficha-2020-samsung .W {
+  display: inherit; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2020-samsung .W {
+      display: none; } }
+
+.ficha-2020-samsung .M {
+  display: none; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2020-samsung .M {
+      display: inherit; } }
+
+.ficha-2020-samsung article {
+  width: 100%;
+  display: block;
+  margin: 0 auto 0 auto;
+  position: relative; }
+  .ficha-2020-samsung article .wrapper {
+    width: 90%;
+    max-width: 1240px;
+    display: block;
+    margin: 0 auto 0 auto; }
+
+.ficha-2020-samsung .img img {
+  width: 100%; }
+
+.ficha-2020-samsung .scrolling {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 11;
+  bottom: 120px;
+  right: 10%;
+  background: rgba(226, 226, 226, 0.75);
+  border-radius: 60px; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2020-samsung .scrolling {
+      bottom: -70px; } }
+  .ficha-2020-samsung .scrolling .img {
+    -webkit-animation: scrollingMove 1s infinite;
+    /* Safari 4+ */
+    -moz-animation: scrollingMove 1s infinite;
+    /* Fx 5+ */
+    -o-animation: scrollingMove 1s infinite;
+    /* Opera 12+ */
+    animation: scrollingMove 1s infinite;
+    /* IE 10+, Fx 29+ */ }
+
+.ficha-2020-samsung .banner-1 {
+  background: #000000;
+  padding: 0 0 92px 0; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2020-samsung .banner-1 {
+      padding: 0 0 50px 0; } }
+  .ficha-2020-samsung .banner-1 .head {
+    height: 80px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1 .head {
+        grid-template-columns: 40% 50%;
+        column-gap: 10%; } }
+    .ficha-2020-samsung .banner-1 .head .left .img {
+      width: 100%;
+      max-width: 141px; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-1 .head .left .img {
+          max-width: 90px; } }
+    .ficha-2020-samsung .banner-1 .head .right {
+      display: flex;
+      justify-content: flex-end; }
+      .ficha-2020-samsung .banner-1 .head .right .img {
+        width: 100%;
+        max-width: 351px; }
+  .ficha-2020-samsung .banner-1 .body {
+    padding: 60px 0 66px 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1 .body {
+        padding: 30px 0 0 0; } }
+    .ficha-2020-samsung .banner-1 .body h2, .ficha-2020-samsung .banner-1 .body h1 {
+      font-size: 48px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin: 0;
+      padding: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-1 .body h2, .ficha-2020-samsung .banner-1 .body h1 {
+          font-size: 22px !important; } }
+    .ficha-2020-samsung .banner-1 .body h2 {
+      font-family: 'SamsungSharp Medium'; }
+    .ficha-2020-samsung .banner-1 .body h1 {
+      font-size: 3em;
+      font-family: 'SamsungSharp Bold'; }
+  .ficha-2020-samsung .banner-1 .btn-call-to-acction {
+    width: 260px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-image: linear-gradient(to top, #a77a70, #f0d6d0);
+    display: block;
+    margin: 47px auto 0 auto;
+    cursor: pointer; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1 .btn-call-to-acction {
+        width: 220px;
+        height: 45px;
+        margin: 40px auto 40px auto; } }
+    .ficha-2020-samsung .banner-1 .btn-call-to-acction a {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none; }
+      .ficha-2020-samsung .banner-1 .btn-call-to-acction a p {
+        font-family: 'SamsungOne 800';
+        font-size: 24px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #010101; }
+
+.ficha-2020-samsung .banner-1-b article {
+  padding-top: 99px; }
+  .ficha-2020-samsung .banner-1-b article .wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 80px;
+    justify-content: center; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1-b article .wrapper {
+        grid-template-columns: 95%;
+        max-width: 400px;
+        column-gap: 40px; } }
+  .ficha-2020-samsung .banner-1-b article .left .card-producto, .ficha-2020-samsung .banner-1-b article .right .card-producto {
+    border-radius: 30px;
+    border: solid 2px #000000;
+    padding: 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1-b article .left .card-producto, .ficha-2020-samsung .banner-1-b article .right .card-producto {
+        padding: 30px 0 30px 0; } }
+  .ficha-2020-samsung .banner-1-b article .left h3, .ficha-2020-samsung .banner-1-b article .right h3 {
+    font-family: 'SamsungSharp Medium';
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1-b article .left h3, .ficha-2020-samsung .banner-1-b article .right h3 {
+        font-size: 22px; } }
+    .ficha-2020-samsung .banner-1-b article .left h3 span, .ficha-2020-samsung .banner-1-b article .right h3 span {
+      font-family: 'SamsungSharp Bold'; }
+  .ficha-2020-samsung .banner-1-b article .left h2, .ficha-2020-samsung .banner-1-b article .right h2 {
+    font-family: 'SamsungSharp Medium';
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 39px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1-b article .left h2, .ficha-2020-samsung .banner-1-b article .right h2 {
+        font-size: 22px; } }
+  .ficha-2020-samsung .banner-1-b article .left .img, .ficha-2020-samsung .banner-1-b article .right .img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 0 auto; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1-b article .left .img, .ficha-2020-samsung .banner-1-b article .right .img {
+        max-width: 211px; } }
+  .ficha-2020-samsung .banner-1-b article .right h2 {
+    font-family: 'SamsungSharp Bold' !important; }
+  .ficha-2020-samsung .banner-1-b article .box-informations {
+    width: 100%;
+    max-width: 875px;
+    min-height: 126px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    margin: 54px auto 0 auto;
+    display: flex;
+    align-items: center; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-1-b article .box-informations {
+        max-width: 90%;
+        min-height: auto;
+        padding: 0 2.5% 0 2.5%;
+        margin: 20px auto 0 auto; } }
+    .ficha-2020-samsung .banner-1-b article .box-informations p {
+      font-family: 'SamsungSharp Medium';
+      font-size: 28px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #676767; }
+      .ficha-2020-samsung .banner-1-b article .box-informations p a {
+        font-family: 'SamsungSharp Bold';
+        text-decoration: none;
+        color: #676767; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-1-b article .box-informations p {
+          font-size: 16px;
+          padding: 1rem; } }
+
+.ficha-2020-samsung .banner-2 {
+  background: #ffffff; }
+  .ficha-2020-samsung .banner-2 .head {
+    height: 80px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100%;
+    padding: 120px 0 0 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-2 .head {
+        padding: 60px 0 0 0;
+        height: auto; } }
+    .ficha-2020-samsung .banner-2 .head .center {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .ficha-2020-samsung .banner-2 .head .center .img {
+        width: 100%;
+        max-width: 80px; }
+        @media only screen and (min-width: 200px) and (max-width: 767px) {
+          .ficha-2020-samsung .banner-2 .head .center .img {
+            max-width: 40px; } }
+  .ficha-2020-samsung .banner-2 .body {
+    padding-top: 60px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-2 .body {
+        padding-top: 40px; } }
+    .ficha-2020-samsung .banner-2 .body h2 {
+      font-size: 48px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: 0;
+      padding: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-2 .body h2 {
+          font-size: 22px !important; } }
+    .ficha-2020-samsung .banner-2 .body h2 {
+      font-family: 'SamsungSharp Medium'; }
+    .ficha-2020-samsung .banner-2 .body p {
+      font-family: 'SamsungOne 400';
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: 27px 0 0 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-2 .body p {
+          font-size: 16px !important;
+          margin: 15px 0 0 0; } }
+  .ficha-2020-samsung .banner-2 .banner {
+    margin-top: 86px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-2 .banner {
+        margin-top: 25px; } }
+    .ficha-2020-samsung .banner-2 .banner .body-copy {
+      position: relative;
+      display: block;
+      margin-top: -3vw; }
+      .ficha-2020-samsung .banner-2 .banner .body-copy p {
+        font-family: 'SamsungOne 400C';
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000; }
+        @media only screen and (min-width: 200px) and (max-width: 767px) {
+          .ficha-2020-samsung .banner-2 .banner .body-copy p {
+            font-size: 12px !important; } }
+
+.ficha-2020-samsung .banner-3 {
+  background: #ffffff; }
+  .ficha-2020-samsung .banner-3 .head {
+    height: 80px;
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 140px auto; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-3 .head {
+        grid-template-columns: 100%;
+        height: auto; } }
+    .ficha-2020-samsung .banner-3 .head .left, .ficha-2020-samsung .banner-3 .head .rigth {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .ficha-2020-samsung .banner-3 .head .left .img, .ficha-2020-samsung .banner-3 .head .rigth .img {
+        width: 100%;
+        max-width: 80px; }
+        @media only screen and (min-width: 200px) and (max-width: 767px) {
+          .ficha-2020-samsung .banner-3 .head .left .img, .ficha-2020-samsung .banner-3 .head .rigth .img {
+            max-width: 40px; } }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-3 .head .right {
+        padding-top: 40px; } }
+    .ficha-2020-samsung .banner-3 .head .right h2 {
+      font-size: 48px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      margin: 0;
+      padding: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-3 .head .right h2 {
+          font-size: 22px !important;
+          text-align: center; } }
+    .ficha-2020-samsung .banner-3 .head .right h2 {
+      font-family: 'SamsungSharp Medium'; }
+  .ficha-2020-samsung .banner-3 .body {
+    padding-top: 140px;
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-3 .body {
+        grid-template-columns: 100%;
+        padding-top: 40px; } }
+    .ficha-2020-samsung .banner-3 .body p {
+      font-family: 'SamsungOne 400';
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      margin: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-3 .body p {
+          font-size: 16px !important;
+          text-align: center;
+          margin: 15px 0 0 0; } }
+  .ficha-2020-samsung .banner-3 .banner {
+    background: #000000;
+    margin: 96px 0 0 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-3 .banner {
+        margin: 40px 0 0 0; } }
+    .ficha-2020-samsung .banner-3 .banner .body-copy {
+      position: relative;
+      display: block;
+      margin: 37px auto 0 auto;
+      max-width: 809px; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-3 .banner .body-copy {
+          max-width: 90%;
+          margin: 37px auto 0 auto; } }
+      .ficha-2020-samsung .banner-3 .banner .body-copy p {
+        font-family: 'SamsungOne 400C';
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin: 20px 0 0 0;
+        padding: 0; }
+        @media only screen and (min-width: 200px) and (max-width: 767px) {
+          .ficha-2020-samsung .banner-3 .banner .body-copy p {
+            font-size: 16px !important; } }
+
+.ficha-2020-samsung .banner-4 {
+  background: #000000; }
+  .ficha-2020-samsung .banner-4 .banner {
+    background: #000000;
+    padding-top: 160px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-4 .banner {
+        padding-top: 40px; } }
+  .ficha-2020-samsung .banner-4 .btns {
+    display: grid;
+    grid-template-columns: 230px 306px;
+    justify-content: center;
+    column-gap: 61px;
+    margin-top: -13vw; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-4 .btns {
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+        margin-top: 30px; } }
+    .ficha-2020-samsung .banner-4 .btns .left, .ficha-2020-samsung .banner-4 .btns .rigth {
+      align-items: center; }
+      .ficha-2020-samsung .banner-4 .btns .left h3, .ficha-2020-samsung .banner-4 .btns .rigth h3 {
+        font-family: 'SamsungSharp Medium';
+        font-size: 30px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        cursor: pointer;
+        border-bottom: 6px solid rgba(255, 255, 255, 0);
+        text-align: right;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        @media only screen and (min-width: 200px) and (max-width: 767px) {
+          .ficha-2020-samsung .banner-4 .btns .left h3, .ficha-2020-samsung .banner-4 .btns .rigth h3 {
+            font-size: 15px; } }
+    .ficha-2020-samsung .banner-4 .btns .left h3 {
+      text-align: right; }
+    .ficha-2020-samsung .banner-4 .btns .active {
+      border-bottom: 6px solid white !important; }
+  .ficha-2020-samsung .banner-4 .left:hover h3,
+  .ficha-2020-samsung .banner-4 .rigth:hover h3 {
+    border-bottom: 6px solid #ffffff; }
+  .ficha-2020-samsung .banner-4 .thumbnails {
+    display: grid;
+    grid-template-columns: 242px 242px 242px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 89px;
+    padding-bottom: 153px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-4 .thumbnails {
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        margin-top: 50px;
+        padding-bottom: 50px; } }
+    .ficha-2020-samsung .banner-4 .thumbnails .thumb .img {
+      width: 100%; }
+    .ficha-2020-samsung .banner-4 .thumbnails .thumb p {
+      font-family: 'SamsungOne 800';
+      font-size: 24px;
+      font-weight: 800;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 20px; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-4 .thumbnails .thumb p {
+          font-size: 16px; } }
+  .ficha-2020-samsung .banner-4 .note20 {
+    display: none; }
+  .ficha-2020-samsung .banner-4 .note20-ultra {
+    display: grid;
+    grid-template-columns: 242px 242px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-4 .note20-ultra {
+        grid-template-columns: 40% 40%; } }
+
+.ficha-2020-samsung .banner-5 {
+  background: #f8f8f8; }
+  .ficha-2020-samsung .banner-5 .head {
+    height: 80px;
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 140px auto;
+    margin-top: 60px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-5 .head {
+        grid-template-columns: 100%;
+        height: auto;
+        margin-top: 0; } }
+    .ficha-2020-samsung .banner-5 .head .left, .ficha-2020-samsung .banner-5 .head .rigth {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .ficha-2020-samsung .banner-5 .head .left .img, .ficha-2020-samsung .banner-5 .head .rigth .img {
+        width: 100%;
+        max-width: 80px; }
+        @media only screen and (min-width: 200px) and (max-width: 767px) {
+          .ficha-2020-samsung .banner-5 .head .left .img, .ficha-2020-samsung .banner-5 .head .rigth .img {
+            max-width: 40px; } }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-5 .head .right {
+        padding-top: 40px; } }
+    .ficha-2020-samsung .banner-5 .head .right h2 {
+      font-family: 'SamsungSharp Medium';
+      font-size: 48px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      margin: 0;
+      padding: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-5 .head .right h2 {
+          font-size: 22px !important;
+          text-align: center; } }
+    .ficha-2020-samsung .banner-5 .head .right p {
+      font-family: 'SamsungOne 400';
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-5 .head .right p {
+          font-size: 16px !important;
+          margin: 15px 0 0 0;
+          text-align: center; } }
+    .ficha-2020-samsung .banner-5 .head .right .img {
+      width: 100%;
+      max-width: 138px;
+      margin-top: 94px; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-5 .head .right .img {
+          margin: 30px auto 30px auto; } }
+  .ficha-2020-samsung .banner-5 .body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 161px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-5 .body {
+        padding-top: 40px;
+        grid-template-columns: 100%; } }
+  .ficha-2020-samsung .banner-5 .body-copy {
+    margin-top: 70px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-5 .body-copy {
+        margin-top: 40px; } }
+    .ficha-2020-samsung .banner-5 .body-copy p {
+      font-family: 'SamsungOne 400C';
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-5 .body-copy p {
+          font-size: 16px !important;
+          text-align: center;
+          margin: 15px 0 0 0; }
+          .ficha-2020-samsung .banner-5 .body-copy p br {
+            display: none; } }
+  .ficha-2020-samsung .banner-5 .banner .img {
+    width: 100%;
+    max-width: 728px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-5 .banner .img {
+        max-width: 90%; } }
+
+.ficha-2020-samsung .banner-6 {
+  background: #f8f8f8; }
+  .ficha-2020-samsung .banner-6 .head {
+    height: 80px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100%;
+    padding: 120px 0 0 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-6 .head {
+        grid-template-columns: 100%;
+        height: auto;
+        margin-top: 0;
+        padding: 40px 0 0 0; } }
+    .ficha-2020-samsung .banner-6 .head .center {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .ficha-2020-samsung .banner-6 .head .center .img {
+        width: 100%;
+        max-width: 80px; }
+  .ficha-2020-samsung .banner-6 .body {
+    padding-top: 60px; }
+    .ficha-2020-samsung .banner-6 .body h2 {
+      font-size: 48px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: 0;
+      padding: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-6 .body h2 {
+          font-size: 22px !important;
+          text-align: center; } }
+    .ficha-2020-samsung .banner-6 .body h2 {
+      font-family: 'SamsungSharp Medium'; }
+    .ficha-2020-samsung .banner-6 .body p {
+      font-family: 'SamsungOne 400';
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-6 .body p {
+          font-size: 16px !important;
+          margin: 15px 0 0 0;
+          text-align: center; } }
+  .ficha-2020-samsung .banner-6 .banner {
+    background: #f8f8f8;
+    margin-top: 123px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-6 .banner {
+        padding-top: 40px;
+        margin-top: 0; } }
+
+.ficha-2020-samsung .banner-7 {
+  background: #000000; }
+  .ficha-2020-samsung .banner-7 .body {
+    padding-top: 60px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-7 .body {
+        padding-top: 40px;
+        margin-top: 0; } }
+    .ficha-2020-samsung .banner-7 .body h2 {
+      font-size: 48px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin: 156px 0 0 0;
+      padding: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-7 .body h2 {
+          font-size: 22px !important;
+          text-align: center; }
+          .ficha-2020-samsung .banner-7 .body h2 br {
+            display: none; } }
+    .ficha-2020-samsung .banner-7 .body h2 {
+      font-family: 'SamsungSharp Medium'; }
+    .ficha-2020-samsung .banner-7 .body p {
+      font-family: 'SamsungOne 400C';
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-7 .body p {
+          font-size: 16px !important;
+          margin: 15px 0 0 0;
+          text-align: center; }
+          .ficha-2020-samsung .banner-7 .body p br {
+            display: none; } }
+  .ficha-2020-samsung .banner-7 .banner {
+    margin-top: 126px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-7 .banner {
+        margin-top: 40px; } }
+
+.ficha-2020-samsung .banner-8 {
+  background: #000000;
+  padding: 130px 0 97px 0; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2020-samsung .banner-8 {
+      padding: 40px 0; } }
+  .ficha-2020-samsung .banner-8 .video {
+    width: 100%;
+    display: block;
+    margin: 0 auto 78px auto; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-8 .video {
+        margin: 0 auto 40px auto; } }
+  .ficha-2020-samsung .banner-8 .body-copy {
+    display: grid;
+    grid-template-columns: 437px;
+    justify-content: flex-end;
+    align-items: center; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-8 .body-copy {
+        grid-template-columns: 80%;
+        justify-content: center; } }
+    .ficha-2020-samsung .banner-8 .body-copy .img {
+      width: 100%;
+      max-width: 437px; }
+
+.ficha-2020-samsung .banner-9 {
+  background: #e5e5e5; }
+  .ficha-2020-samsung .banner-9 .head {
+    height: 300px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2020-samsung .banner-9 .head {
+        grid-template-columns: 100%;
+        height: auto;
+        padding: 20px 0 20px 0; } }
+    .ficha-2020-samsung .banner-9 .head .left .legal {
+      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: 0.6px;
+      text-align: left;
+      color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-9 .head .left .legal {
+          margin-bottom: 25px; } }
+    .ficha-2020-samsung .banner-9 .head .left p {
+      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 4.33;
+      letter-spacing: 0.6px;
+      text-align: left;
+      color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-9 .head .left p {
+          font-size: 10px !important;
+          margin: 0;
+          text-align: left;
+          line-height: 1; } }
+    .ficha-2020-samsung .banner-9 .head .right {
+      display: flex;
+      justify-content: flex-end; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2020-samsung .banner-9 .head .right {
+          justify-content: flex-start;
+          margin-top: 15px; } }
+      .ficha-2020-samsung .banner-9 .head .right .img {
+        width: 100%;
+        max-width: 141px; }
+
+.ficha-2020-samsung .rotateScrolling {
+  transform: rotate(180deg);
+  cursor: pointer; }
+
+@-webkit-keyframes scrollingMove {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0px); }
+  100% {
+    opacity: 1;
+    transform: translate(0, 6px); } }
+
+@-moz-keyframes scrollingMove {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0px); }
+  100% {
+    opacity: 1;
+    transform: translate(0, 6px); } }
+
+@-o-keyframes scrollingMove {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0px); }
+  100% {
+    opacity: 1;
+    transform: translate(0, 6px); } }
+
+@keyframes scrollingMove {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0px); }
+  100% {
+    opacity: 1;
+    transform: translate(0, 6px); } }
