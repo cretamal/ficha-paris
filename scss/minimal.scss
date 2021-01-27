@@ -7,9 +7,128 @@ body{
   padding:0;
   margin:0;
 }
-.ficha-2020-samsung{
+.ficha-2021-samsung{
+  .btn-call-to-acction{
+    width: 260px;
+    height: 55px;
+    border-radius: 27.5px;
+    // background-image: linear-gradient(to top, #a77a70, #f0d6d0);
+    display: block;
+    margin:47px auto 0 auto;
+    cursor:pointer;
+    @include respond-to($iphone_xs) {
+      width: 220px;
+      height: 45px;
+      margin:40px auto 40px auto;
+    }
+    a{
+      width:100%;
+      height:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      p{
+        font-family: 'SamsungOne 800' !important;
+        font-size: 24px !important;
+        font-weight: 800 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        // color: #010101;
+      }
+
+    }
+  }
+
+  .btn-call-to-acction-2021{
+    width: 260px;
+    height: 55px;
+    border-radius: 27.5px;
+    // background-image: linear-gradient(to top, #a77a70, #f0d6d0);
+    display: block;
+    margin:47px auto 0 auto;
+    cursor:pointer;
+    // background: #ffffff;
+    @include respond-to($iphone_xs) {
+      width: 220px;
+      height: 45px;
+      margin:40px auto 40px auto;
+    }
+    a{
+      width:100%;
+      height:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      p{
+        font-family: 'SamsungOne 800' !important;
+        font-size: 24px !important;
+        font-weight: 800 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        // color: #010101;
+      }
+
+    }
+  }
+  .bg-black{
+    background: #000000 !important;
+    a{
+      p{
+        color:#ffffff !important;
+      }
+    }
+  }
+  .bg-white{
+    background: #ffffff !important;
+    a{
+      p{
+        color: #000000 !important;
+      }
+    }
+  }
+  .body-copy{
+    margin:70px 0 131px 0;
+    @include respond-to($iphone_xs) {
+      margin-top:$paddingTopMovil;
+    }
+    p{
+      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin:0;
+      // subtitle
+      @include respond-to($iphone_xs) {
+        font-size: $subTitleMovil !important;
+        text-align: center;
+        margin:15px 0 0 0;
+        br{
+          display:none;
+        }
+      }
+    }
+  }
   .W{
     display:inherit;
+    @include respond-to($iphone_xs) {
+      display:none;
+    }
+  }
+  .W-2{
+    display:block;
     @include respond-to($iphone_xs) {
       display:none;
     }
@@ -46,6 +165,7 @@ body{
     right:10%;
     background:rgba(226,226,226,0.75);
     border-radius:60px;
+    display:none !important;
     @include respond-to($iphone_xs) {
       bottom:-70px;
     }
@@ -91,7 +211,7 @@ body{
       }
     }
     .body{
-      padding:60px 0 66px 0;
+      padding:60px 0 40px 0;
       @include respond-to($iphone_xs) {
         padding:30px 0 0 0;
       }
@@ -119,49 +239,18 @@ body{
         font-family: 'SamsungSharp Bold';
       }
     }
-    .btn-call-to-acction{
-      width: 260px;
-      height: 55px;
-      border-radius: 27.5px;
-      background-image: linear-gradient(to top, #a77a70, #f0d6d0);
-      display: block;
-      margin:47px auto 0 auto;
-      cursor:pointer;
-      @include respond-to($iphone_xs) {
-        width: 220px;
-        height: 45px;
-        margin:40px auto 40px auto;
-      }
-      a{
-        width:100%;
-        height:100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        p{
-          font-family: 'SamsungOne 800';
-          font-size: 24px;
-          font-weight: 800;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: normal;
-          letter-spacing: normal;
-          text-align: center;
-          color: #010101;
-        }
-
-      }
-    }
+    
   }
 
   .banner-1-b{
     article{
-      padding-top:99px;
+      // padding-top:99px;
       .wrapper{
+        width: 100%;
+        max-width: 100%;
         display:grid;
-        grid-template-columns: 400px 400px;
-        column-gap:80px;
+        grid-template-columns: 60% 40%;
+        // column-gap:80px;
         justify-content: center;
         @include respond-to($iphone_xs) {
           grid-template-columns: 95%;
@@ -171,8 +260,8 @@ body{
       }
       .left,.right{
         .card-producto{
-          border-radius: 30px;
-          border: solid 2px #000000;
+          // border-radius: 30px;
+          // border: solid 2px #000000;
           padding:0;
           @include respond-to($iphone_xs) {
             padding:30px 0 30px 0;
@@ -186,8 +275,9 @@ body{
           font-style: normal;
           line-height: normal;
           letter-spacing: normal;
-          text-align: center;
+          text-align: left;
           color: #000000;
+          margin:15px 0 15px 0;
           @include respond-to($iphone_xs) {
             font-size: $titleMovil;
           }
@@ -210,17 +300,26 @@ body{
             font-size: $titleMovil;
           }
         }
+        h5,h3{
+          @include respond-to($iphone_xs) {
+            text-align: center;
+          }
+        }
 
         .img{
           max-width:100%;
           display:block;
           margin:0 auto 0 auto;
-          @include respond-to($iphone_xs) {
-            max-width:211px;
-          }
         }
       }
       .right{
+        margin-top:80px;
+        h5{
+          font-family: 'SamsungSharp Bold';
+          font-size:30px !important;
+          color:#8c8c8c;
+          margin:0;
+        }
         h2{
           font-family: 'SamsungSharp Bold' !important;
         }
@@ -257,8 +356,13 @@ body{
           }
           @include respond-to($iphone_xs) {
             font-size:$subTitleMovil;
-            padding:1rem;
           }
+        }
+      }
+      .btn-call-to-acction-2021{
+        margin:60px 0 0 0 !important;
+        @include respond-to($iphone_xs) {
+          margin:60px auto 0 auto !important;
         }
       }
     }
@@ -480,81 +584,93 @@ body{
   }
 
   .banner-4{
-    background: #000000;
-    .banner{
-      background: #000000;
-      padding-top:160px;
-      @include respond-to($iphone_xs) {
-        padding-top:$paddingTopMovil;
-      }
-    }
-    .btns{
+    background: #ffffff;
+    // .banner{
+    //   background: #000000;
+    //   padding-top:160px;
+    //   @include respond-to($iphone_xs) {
+    //     padding-top:$paddingTopMovil;
+    //   }
+    // }
+    // .btns{
+    //   display:grid;
+    //   grid-template-columns: 230px 306px;
+    //   justify-content: center;
+    //   column-gap: 61px;
+    //   margin-top:-13vw;
+    //   @include respond-to($iphone_xs) {
+    //     grid-template-columns: 48% 48%;
+    //     column-gap: 4%;
+    //     margin-top: 30px;
+    //   }
+    //   .left,.rigth{
+    //     align-items: center;
+    //     h3{
+    //       font-family: 'SamsungSharp Medium';
+    //       font-size: 30px;
+    //       font-weight: 500;
+    //       font-stretch: normal;
+    //       font-style: normal;
+    //       line-height: normal;
+    //       letter-spacing: normal;
+    //       text-align: left;
+    //       color: #ffffff;
+    //       cursor:pointer;
+    //       border-bottom:6px solid rgba(255,255,255,0);
+    //       text-align: right;
+    //       -webkit-transition: all 0.5s;
+    //       -moz-transition: all 0.5s;
+    //       -o-transition:  all 0.5s;
+    //       transition:  all 0.5s;
+    //       @include respond-to($iphone_xs) {
+    //         font-size:$subTitleMovil - 1px;
+    //       }
+
+    //     }
+    //   }
+    //   .left{
+    //     h3{
+    //       text-align: right;
+    //     }
+    //   }
+    //   .active{
+    //     border-bottom:6px solid rgba(255,255,255,1) !important;
+    //   }
+    // }
+    // .left:hover,
+    // .rigth:hover{
+    //   // border:1px solid red;
+    //   h3{
+    //     border-bottom:6px solid #ffffff;
+    //   }
+    // }
+    .thumbnails{
       display:grid;
-      grid-template-columns: 230px 306px;
+      grid-template-columns: 400px 400px 400px;
       justify-content: center;
-      column-gap: 61px;
-      margin-top:-13vw;
+      // align-items: center;
+      column-gap: 50px;
+      margin-top:89px;
+      padding:100px 0 0 0;
       @include respond-to($iphone_xs) {
-        grid-template-columns: 48% 48%;
-        column-gap: 4%;
-        margin-top: 30px;
+        grid-template-columns: 100%;
+        justify-content: center;
+        margin-top:0px;
+        padding-bottom:50px;
       }
-      .left,.rigth{
-        align-items: center;
-        h3{
-          font-family: 'SamsungSharp Medium';
-          font-size: 30px;
-          font-weight: 500;
+      .thumb{
+        .title-thumb{
+          font-family: 'SamsungSharp Bold';
+          font-size: 36px;
+          font-weight: bold;
           font-stretch: normal;
           font-style: normal;
           line-height: normal;
           letter-spacing: normal;
-          text-align: left;
-          color: #ffffff;
-          cursor:pointer;
-          border-bottom:6px solid rgba(255,255,255,0);
-          text-align: right;
-          -webkit-transition: all 0.5s;
-          -moz-transition: all 0.5s;
-          -o-transition:  all 0.5s;
-          transition:  all 0.5s;
-          @include respond-to($iphone_xs) {
-            font-size:$subTitleMovil - 1px;
-          }
-
+          text-align: center;
+          color: #000000;
+          text-decoration: underline;
         }
-      }
-      .left{
-        h3{
-          text-align: right;
-        }
-      }
-      .active{
-        border-bottom:6px solid rgba(255,255,255,1) !important;
-      }
-    }
-    .left:hover,
-    .rigth:hover{
-      // border:1px solid red;
-      h3{
-        border-bottom:6px solid #ffffff;
-      }
-    }
-    .thumbnails{
-      display:grid;
-      grid-template-columns: 242px 242px 242px;
-      justify-content: center;
-      align-items: center;
-      column-gap: 50px;
-      margin-top:89px;
-      padding-bottom:153px;
-      @include respond-to($iphone_xs) {
-        grid-template-columns: 40% 40%;
-        justify-content: center;
-        margin-top:50px;
-        padding-bottom:50px;
-      }
-      .thumb{
         .img{
           width:100%;
         }
@@ -567,10 +683,51 @@ body{
           line-height: normal;
           letter-spacing: normal;
           text-align: center;
-          color: #ffffff;
-          margin-top:20px;
+          color: #000000;
           @include respond-to($iphone_xs) {
            font-size: $subTitleMovil;
+          }
+        }
+        .list-colors{
+          h6{
+            font-family: 'SamsungOne 800';
+            font-size:24px;
+            margin:0;
+            color:#c2c9d5;
+            margin:30px 0 30px 0;
+          }
+          ul{
+            margin:0;
+            padding:0;
+            li{
+              display: flex;
+              width:100%;
+              align-items: center;
+              span{
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                margin-right: 20px;
+                @include respond-to($iphone_xs) {
+                  width: 20px;
+                  height: 20px;
+                  margin-right: 10px;
+                }
+              }
+              p{
+                font-family: 'SamsungOne 600';
+                font-size: 24px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000000;
+                margin:10px 0 15px 0;
+
+              }
+            }
           }
         }
       }
@@ -580,65 +737,282 @@ body{
     }
     .note20-ultra{
       display:grid;
-      grid-template-columns: 242px 242px;
-      @include respond-to($iphone_xs) {
-        grid-template-columns: 40% 40%;
-      }
-
     }
   }
 
 
-  .banner-5{
-    background: #f8f8f8;
-    .head{
-      height: 80px;
-      display:grid;
-      align-items: flex-start;
-      grid-template-columns: 140px auto;
-      margin-top:60px;
+.especificaciones-producto{
+  width:100%;
+  display:block;
+  .head{
+    padding:25px 0 25px 0;
+    h2,p{
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-family: 'SamsungSharp Bold';
+      font-size: 48px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      @include respond-to($iphone_xs) {
+        font-size: 24px;
+      }
+    }
+    p{
+      font-family: 'SamsungOne 400';
+      font-size: 30px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      @include respond-to($iphone_xs) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .body{
+    ul{
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      column-gap: 10%;
+      margin:0;
+      padding:0;
       @include respond-to($iphone_xs) {
         grid-template-columns: 100%;
-        height: auto;
-        margin-top:0;
+        column-gap: 0%;
       }
-      .left,.rigth{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .img{
-          width:100%;
-          max-width:80px;
-          @include respond-to($iphone_xs) {
-            max-width:$sizeIcoMovil;
-          }
-        }
+      li{
+        list-style: none;
       }
-      .right{
+    }
+    .thumb-espec{
+      padding:139px 0 132px 0;
+      @include respond-to($iphone_xs) {
+        padding:40px 0 40px 0;
+      }
+      .ico{
+        max-width: 61px;
+        display: block;
+        margin: 0 auto 0 auto;
         @include respond-to($iphone_xs) {
-          padding-top:$paddingTopMovil;
+          max-width: 41px;
         }
-        h2{
-          font-family: 'SamsungSharp Medium';
-          font-size: 48px;
-          font-weight: 500;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: normal;
-          letter-spacing: normal;
-          text-align: left;
-          color: #000000;
-          margin:0;
-          padding:0;
-          // h2
-          @include respond-to($iphone_xs) {
-            font-size: $titleMovil !important;
-            text-align: center;
-          }
+        img{
+          width:100%;
         }
-        p{
+      }
+      h3,h4,h5{
+        margin:0;
+        padding:0;
+      }
+      h3{
+        font-family: 'SamsungSharp Bold';
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        margin:40px 0 32px 0;
+        @include respond-to($iphone_xs) {
+          font-size: 40px;
+        }
+      }
+      h4{
+        font-family: 'SamsungOne 800';
+        font-size: 30px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        @include respond-to($iphone_xs) {
+          font-size: 20px;
+        }
+      }
+      h5{
+        font-family: 'SamsungOne 800';
+        font-size: 30px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #8c8c8c;
+        margin:32px 0 21px 0;
+        @include respond-to($iphone_xs) {
+          font-size: 20px;
+          margin:15px 0 10px 0;
+        }
+      }
+      p{
+        font-family: 'SamsungOne 600';
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        @include respond-to($iphone_xs) {
+          font-size: 20px;
+        }
+
+      }
+    }
+    .thumb-espec-2{
+      padding:138px 0 134px 0;
+      @include respond-to($iphone_xs) {
+        padding:30px 0 30px 0;
+      }
+      h3,h4{
+        margin:0;
+        padding:0;
+      }
+      h3{
+        font-family: 'SamsungSharp Bold';
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        @include respond-to($iphone_xs) {
+          font-size: 40px;
+        }
+      }
+      h4{
+        font-family: 'SamsungOne 800';
+        font-size: 30px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #8c8c8c;
+        @include respond-to($iphone_xs) {
+          font-size: 20px;
+        }
+
+      }
+    }
+    .thumb-espec-3{
+      padding:138px 0 30px 0;
+      @include respond-to($iphone_xs) {
+        padding:30px 0 30px 0;
+      }
+      .ico{
+        max-width: 61px;
+        display: block;
+        margin: 0 auto 0 auto;
+        img{
+          width:100%;
+        }
+      }
+      
+      h3{
+        font-family: 'SamsungOne 800';
+        font-size: 30px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #010101;
+        @include respond-to($iphone_xs) {
+          font-size: 20px;
+        }
+      }
+      h4{
+        font-family: 'SamsungSharp Bold';
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        @include respond-to($iphone_xs) {
+          font-size: 40px;
+        }
+
+      }
+    }
+    .thumb-espec-3_b{
+      padding:0 0 134px 0!important;
+      @include respond-to($iphone_xs) {
+        padding:0 !important;
+      }
+    }
+    .thumb-espec-3_c{
+      padding-bottom: 139px;
+      @include respond-to($iphone_xs) {
+        padding-bottom: 30px;
+      }
+      .ico{
+        max-width: 190px;
+        margin:0 auto 40px auto;
+        @include respond-to($iphone_xs) {
+          max-width: 140px;
+        }
+      }
+      h3{
+        font-size: 60px;
+        margin:0;
+        @include respond-to($iphone_xs) {
+          font-size: 40px;
+        }
+      }
+      h5{
+        font-family: 'SamsungOne 800';
+        font-size: 30px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #8c8c8c;
+        margin:0;
+        @include respond-to($iphone_xs) {
+          font-size: 20px;
+        }
+      }
+    }
+    .thumb-espec-3_d{
+      .ico{
+        max-width: 48px;
+        margin:0 auto 40px auto;
+      }
+      h3{
+        font-size: 60px;
+        margin: 0;
+        @include respond-to($iphone_xs) {
+          font-size: 40px;
+        }
+        span{
           font-family: 'SamsungOne 400';
-          font-size: 24px;
+          font-size: 30px;
           font-weight: normal;
           font-stretch: normal;
           font-style: normal;
@@ -646,120 +1020,111 @@ body{
           letter-spacing: normal;
           text-align: left;
           color: #000000;
-          // subtitle
-          @include respond-to($iphone_xs) {
-            font-size: $subTitleMovil !important;
-            margin:15px 0 0 0;
-            text-align: center;
-          }
 
         }
-        .img{
-          width:100%;
-          max-width:138px;
-          margin-top: 94px;
-          @include respond-to($iphone_xs) {
-            margin: 30px auto 30px auto;
-          }
-        }
-        
       }
-
-    }
-    .body{
-      display: grid;
-      grid-template-columns: 50% 50%;
-      padding-top:161px;
-      @include respond-to($iphone_xs) {
-        padding-top:$paddingTopMovil;
-        grid-template-columns: 100%;
-      }
-    }
-    .body-copy{
-      margin-top:70px;
-      @include respond-to($iphone_xs) {
-        margin-top:$paddingTopMovil;
-      }
-      p{
-        font-family: 'SamsungOne 400C';
-        font-size: 18px;
-        font-weight: normal;
+      h5{
+        font-family: 'SamsungOne 800';
+        font-size: 30px;
+        font-weight: 800;
         font-stretch: normal;
         font-style: normal;
         line-height: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #000000;
+        color: #8c8c8c;
         margin:0;
-        // subtitle
         @include respond-to($iphone_xs) {
-          font-size: $subTitleMovil !important;
-          text-align: center;
-          margin:15px 0 0 0;
-          br{
-            display:none;
-          }
+          font-size: 20px;
         }
       }
     }
-    .banner{
-      .img{
-        width:100%;
-        max-width:728px;
-        @include respond-to($iphone_xs) {
-          max-width:90%;
-        }
+    .thumb-espec-3_e{
+      h3:nth-child(1){
+        margin-bottom: 78px;
+      }
+      h3:nth-child(2){
+        margin-bottom: 78px;
       }
     }
-  }
-
-
-  .banner-6{
-    background: #f8f8f8;
-    .head{
-      height: 80px;
-      display:grid;
-      align-items: center;
-      grid-template-columns: 100%;
-      padding:120px 0 0 0;
-      @include respond-to($iphone_xs) {
-        grid-template-columns: 100%;
-        height: auto;
-        margin-top:0;
-        padding:$paddingTopMovil 0 0 0;
+    .thumb-espec-3_f{
+      .ico{
+        max-width: 60px;
+        margin:0 auto 40px auto;
       }
-      .center{
+      h3{
+        font-size: 60px;
+        margin:0;
+      }
+      h5{
+        font-family: 'SamsungOne 800';
+        font-size: 30px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+        margin:0;
+      }
+    }
+    .thumb-espec-a{
+      .ico{
+        max-width:156px;
+      }
+      h3{
+        width:240px;
+        margin:40px auto 0 auto;
+      }
+      
+      .box-num{
+        position: relative;
+      }
+      .num{
+        width: 20px;
+        height: 20px;
+        background-color: #0074c5;
+        border-radius: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
-        .img{
-          width:100%;
-          max-width:80px;
-        }
-      }
-
-    }
-    .body{
-      padding-top:60px;
-      h2{
-        font-size: 48px;
-        font-weight: 500;
+        font-family: 'SamsungSharp Bold';
+        font-size: 14.5px;
+        font-weight: bold;
         font-stretch: normal;
         font-style: normal;
         line-height: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #000000;
-        margin:0;
-        padding:0;
-        // h2
-          @include respond-to($iphone_xs) {
-            font-size: $titleMovil !important;
-            text-align: center;
-          }
+        color: #ffffff;
+        margin:0 0 5px 0;
+        position: absolute;
+        top:10px;
+        left:0;
       }
-      h2{
-        font-family: 'SamsungSharp Medium';
+      .num:nth-child(1){
+        top:10px;
+      }
+      .num:nth-child(2){
+        top:40px;
+      }
+    }
+
+    .box-usb,.box-cloud{
+      max-width:1000px;
+      display: grid;
+      grid-template-columns: 86px auto;
+      column-gap: 39px;
+      justify-content: center;
+      margin:72px auto 135px auto;
+      @include respond-to($iphone_xs) {
+        grid-template-columns: 100%;
+        column-gap: 0;
+        margin:30px auto 40px auto;
+      }
+      div{
+        margin-top:20px;
       }
       p{
         font-family: 'SamsungOne 400';
@@ -769,124 +1134,24 @@ body{
         font-style: normal;
         line-height: normal;
         letter-spacing: normal;
-        text-align: center;
+        text-align: left;
         color: #000000;
-        // subtitle
         @include respond-to($iphone_xs) {
-          font-size: $subTitleMovil !important;
-          margin:15px 0 0 0;
-          text-align: center;
+          font-size: 20px;
         }
+
       }
     }
-    .banner{
-      background: #f8f8f8;
-      margin-top:123px;
-      @include respond-to($iphone_xs) {
-        padding-top:$paddingTopMovil;
-        margin-top:0;
-      }
-    }
+
+
   }
 
+  
 
-
-  .banner-7{
-    background: #000000;
-    .body{
-      padding-top:60px;
-      @include respond-to($iphone_xs) {
-        padding-top:$paddingTopMovil;
-        margin-top:0;
-      }
-      h2{
-        font-size: 48px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: center;
-        color: #ffffff;
-        margin:156px 0 0 0;
-        padding:0;
-        // h2
-          @include respond-to($iphone_xs) {
-            font-size: $titleMovil !important;
-            text-align: center;
-            br{
-              display: none;
-            }
-          }
-      }
-      h2{
-        font-family: 'SamsungSharp Medium';
-      }  
-      p{
-        font-family: 'SamsungOne 400C';
-          font-size: 18px;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: normal;
-          letter-spacing: normal;
-          text-align: center;
-          color: #ffffff;
-          // subtitle
-          @include respond-to($iphone_xs) {
-            font-size: $subTitleMovil !important;
-            margin:15px 0 0 0;
-            text-align: center;
-            br{
-              display:none;
-            }
-          }
-      }
-    }
-    .banner{
-      margin-top:126px;
-      @include respond-to($iphone_xs) {
-        margin-top:$paddingTopMovil;
-      }
-    }
-  }
-
-  .banner-8{
-    background: #000000;
-    padding:130px 0 97px 0;
-    @include respond-to($iphone_xs) {
-      padding:$paddingTopMovil 0;
-    }
-    .video{
-      width:100%;
-      display:block;
-      margin:0 auto 78px auto;
-      @include respond-to($iphone_xs) {
-        margin:0 auto $paddingTopMovil auto;
-      }
-    }
-    .body-copy{
-      display: grid;
-      grid-template-columns: 437px;
-      justify-content: flex-end;
-      align-items: center;
-      @include respond-to($iphone_xs) {
-        grid-template-columns: 80%;
-        justify-content: center;
-      }
-      .img{
-        width:100%;
-        max-width:437px;
-      }
-
-    }
-
-    
-  }
-
+}
 
   .banner-9{
-    background: #e5e5e5;
+    background: #f7f7f7;
     .head{
       height: 300px;
       display:grid;
@@ -907,7 +1172,7 @@ body{
           line-height: 1;
           letter-spacing: 0.6px;
           text-align: left;
-          color: #000000;
+          color: #8d8d8d;
           @include respond-to($iphone_xs) {
             margin-bottom:25px;
           }
@@ -921,7 +1186,7 @@ body{
           line-height: 4.33;
           letter-spacing: 0.6px;
           text-align: left;
-          color: #000000;
+          color: #8d8d8d;
           // subtitle
           @include respond-to($iphone_xs) {
             font-size: 10px !important;
@@ -968,5 +1233,6 @@ body{
     0%   { opacity: 0;  transform: translate(0, 0px);}
     100% { opacity: 1; transform: translate(0, 6px);}
   }
-  
+
+
 }
